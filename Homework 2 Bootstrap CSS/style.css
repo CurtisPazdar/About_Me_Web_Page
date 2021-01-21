@@ -10,8 +10,12 @@ ul.navbar-nav {
   margin-left: auto;
 }
 
-.card {
-  margin: 25px;
+@media (max-width: 600px) {
+  .card {
+    position: relative;
+    right: 16px;
+    width: 107%;
+  }
 }
 
 .IndexImage {
@@ -30,15 +34,6 @@ ul.navbar-nav {
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-@media screen and (max-width: 600px) {
-  .portfolioImage {
-    width: 100%;
-    height: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
 }
 
 .form-group {
