@@ -31,7 +31,7 @@ ul.navbar-nav {
 /* Creating the sizing desired for the default portfolio page images */
 .portfolioImage {
   width: 100%;
-  height: 100%;
+  height: 70%;
   object-fit: cover;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -61,4 +61,8 @@ footer {
   text-align: center;
   width: 100%;
   font-size: 12px;
+}
+
+.makeBig {
+  font-size: 24px;
 }
